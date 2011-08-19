@@ -1,10 +1,11 @@
 package com.example.android.sampleapp;
 
 import com.google.inject.Module;
-import roboguice.application.RoboInjectableApplication;
-import roboguice.config.AbstractAndroidModule;
 
 import java.util.List;
+
+import roboguice.application.RoboInjectableApplication;
+import roboguice.config.AbstractAndroidModule;
 
 public class MySampleApplication extends RoboInjectableApplication {
     private Module module = new ApplicationModule();

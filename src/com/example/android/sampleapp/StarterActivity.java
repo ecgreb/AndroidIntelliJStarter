@@ -1,9 +1,12 @@
 package com.example.android.sampleapp;
 
+import com.example.android.sampleapp.util.CurrentTime;
+
 import android.os.Bundle;
 import android.widget.TextView;
-import com.example.android.sampleapp.util.CurrentTime;
+
 import com.google.inject.Inject;
+
 import roboguice.activity.RoboActivity;
 import roboguice.inject.InjectView;
 

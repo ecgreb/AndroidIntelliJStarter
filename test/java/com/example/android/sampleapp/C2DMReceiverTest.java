@@ -1,8 +1,10 @@
 package com.example.android.sampleapp;
 
 import android.content.Intent;
+
 import com.xtremelabs.robolectric.Robolectric;
 import com.xtremelabs.robolectric.RobolectricTestRunner;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

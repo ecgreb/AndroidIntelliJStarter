@@ -1,10 +1,13 @@
 package com.example.android.sampleapp;
 
-import android.widget.TextView;
 import com.example.android.sampleapp.test.support.FakeCurrentTime;
 import com.example.android.sampleapp.test.support.RobolectricTestRunnerWithInjection;
 import com.example.android.sampleapp.util.CurrentTime;
+
+import android.widget.TextView;
+
 import com.google.inject.Inject;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
